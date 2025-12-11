@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dalton Stroup</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </head>
+
 <body>
-    
+<section id="landing-page" onmousemove="movebackground(event)">
+<nav>
+    <figure>
+<img id="personal-logo" src="./assets/A modern, bold logo .png">
+</figure>
+<ul class="nav__link--list">
+    <li class="nav__link" onclick="toddlemodal()">
+        <a href="#" class="nav__link--anchor
+        link__hover-effect
+        link__hover-effect--black">About</a>
+    </li>
+    <li class="nav__link">
+    <a href="#projects"class="nav__link--anchor
+        link__hover-effect
+        link__hover-effect--black">Projects</a>
+    </li>
+    <li class="nav__link" onclick="togglemodal()">
+    <a href="#" class="nav__link--anchor
+        link__hover-effect
+        link__hover-effect--black">Contact</a>
+    </li>
+
+    <li class="nav__link click" onclick="togglecontrast()">
+    <a href="#" class="nav__link--anchor
+        link__hover-effect
+        link__hover-effect--black">
+    <i class="fas fa-adjust"></i></a>
+
+</li>
+</ul>
+</nav>
+<header class="header">
+    <div class="header__content">
+        <h1 class="title">Hey</h1>
+        <h1 class="title__blue">Im Dalton</h1>
+        <p class="header__para">
+            I'm a
+            <b class="blue ">
+            Frontend Software Engineer
+            </b>"with a strong passion for building web applications with great user experiences." 
+        <br>"here's a bit more"<b class="blue click " onclick="togglemodal()"> about me</b>
+           </p>
+           <div class="social__list">
+            <a href=""https://www.linkedin.com/in/dalton-stroup-2b4b62199/" target="_blank" class="social__link click">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/dstroup422" target="_blank" class="social__link click">
+                <i class="fab fa-github"></i>
+                </a>
+           <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
+            <i class="fas fa-file-alt"></i>
+
+           </div>
+
+        </div>
+</header>
+<a href="#">>
+<button class="mail__btn click " onclick="togglemodal()">
+    <i class="fas fa-envelope"></i>
+</button>
+</a>
+<a href="#projects" class="scroll"></a>
+
 </body>
-</html>
+<!-- </html> -->u
