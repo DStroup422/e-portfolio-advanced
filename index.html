@@ -72,7 +72,138 @@
     <i class="fas fa-envelope"></i>
 </button>
 </a>
-<a href="#projects" class="scroll"></a>
+<a href="#projects" class="scroll">
+    <div class="scroll__icon click">
 
+    </div>
+
+</a>
+<div class="modal">
+    <div class="modal__half modal__about">
+        <h3 class="modal__title modal__title--about">Here's a bit about me</h3>
+        <h4 class="modal__sub-title modal__suntitle--about">Frontend Software developer</h4>
+        <p class="modal__para">
+            
+        Im a 28 year old just getting started in tech industry 
+    <b class="blue">frontend developer</b>"with experience in HTML,css,java    </p>
+    <div class="modal__language">
+    <figure class="modal__language">
+    <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt>
+<span class="HTML"></span>    
+</figure>
+<figure class="modal__language">
+    <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt>
+<span class="CSS"></span>
+
+</figure>
+<figure class="modal__language">
+    <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt>
+<span class="JavaScript"></span>
+</figure>
+<figure class="modal__language">
+    <img class="modal__language--img" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt>
+    <span class="React"></span>
+</figure>
+</div>
+    </div>
+    <div class="modal__half modal__contact">
+        <h3 class="modal__title modal__title--contact">Get in touch</h3>
+        <h4 class="modal__sub-title modal__suntitle--contact">I'd love to hear from you!</h4>
+        <form action="https://formspree.io/f/mayvlgrq" method="POST" class="contact__form">
+            <label for="name" class="contact__label">Name</label>
+            <input type="text" id="name" name="name" class="contact__input" required>
+            <label for="email" class="contact__label">Email</label>
+            <input type="email" id="email" name="_replyto" class="contact__input" required>
+            <label for="message" class="contact__label">Message</label>
+            <textarea id="message" name="message" class="contact__textarea" required></textarea>
+            <button type="submit" class="contact__btn">Send</button>
+        </form>
+        <div class="modal__overlay modal__overlay--loading"> 
+     <i class="fas fa-spinner fa-spin"></i>
+        </div>
+        <div class="modal__overlay modal__overlay--success">
+            <div class="modal__success--para">Thanks for messageing! Look forward to speaking to you soon.
+            </div>
+        </div>
+    </div>
+<img src="assets/semi circle.svg" class=" shape shape--0" style="transform:translate(2.4px,-24.15px)rotate(-24.15deg);">
+<img src="./assets/circle.svg" class="shape shape--1" style="transform: translate(-2.4px, -24.15px) rotate(-24deg);">
+<img src="./assets/squiggly.svg" class="shape shape--2" style="transform: translate(2.4px, 24.15px) rotate(24deg);">
+<img src="./assets/circle.svg" class="shape shape--3" style="transform: translate(-2.4px, -24.15px) rotate(-24deg);">
+<img src="./assets/triangle.svg" class="shape shape--4" style="transform: translate(2.4px, 24.15px) rotate(24deg);">
+<img src="./assets/circle.svg" class="shape shape--5" style="transform: translate(-2.4px, -24.15px) rotate(-24deg);">
+<img src="./assets/squiggly.svg" class="shape shape--6" style="transform: translate(2.4px, 24.15px) rotate(24deg);">
+<img src="./assets/circle.svg" class="shape shape--7" style="transform: translate(-2.4px, -24.15px) rotate(-24deg);">
+<img src="./assets/semi circle.svg" class="shape shape--8" style="transform: translate(2.4px, 24.15px) rotate(24deg);">
+</section>
+<section id="projects">
+    <div class="container">
+        <div class="row">
+            <h1 class ="secetion__title">Here are some of my "
+                <span class="blue">projects</span> 
+
+            </h1>
+            <ul class="project__list">
+                <li class="project">
+                    <div class="project__wrapper">
+                    <img src="./assets/google mockup.png" class="project__img">
+                    <div class="project__wrapper--bg"></div>
+                    <div class="project__description">
+                       <h3 class="project__description--title"></h3>
+                       <h4 class="project__description--sub-title"></h4>
+                          <p class="project__description--para"></p> 
+                          <div class="project__description--links">
+                            <a href="#" class="project__link">
+                                <i class="fas fa-link"></i>
+                            </a>
+
+                    </div>
+                    </div>
+                </li>
+                <li class="project">
+                                        <div class="project__wrapper">
+                    <img src="./assets/google mockup.png" class="project__img">
+                    <div class="project__wrapper--bg"></div>
+                    <div class="project__description">
+                       <h3 class="project__description--title"></h3>
+                       <h4 class="project__description--sub-title"></h4>
+                          <p class="project__description--para"></p> 
+                          <div class="project__description--links">
+                            <a href="#" class="project__link">
+                                <i class="fas fa-link"></i>
+                            </a>
+                    </div>
+                    </div>  
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class=" row footer__row">
+                <a href="#" class="footer__anchor">
+                    <figure class="footer__logo">
+                        <img src="./assets/A modern, bold logo .png" class="footer__logo--img">
+                    </figure>
+                    <span class=" footer__logo--popper">"Top"
+                        <i class="fas fa-arrow-up"></i>
+
+                    </span>
+                </a>
+                <div class="footer__social--list">
+                    <a href="https://www.linkedin.com/in/dalton-stroup-2b4b62199/" target="_blank" class="footer__social--link 
+                    link__hover-effect
+                    link__hover-effect--black">
+                        <i class="fab fa-linkedin-in"></i>
+
+                    </a>
+                
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-<!-- </html> -->u
+<!-- </html> -->
